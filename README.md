@@ -37,13 +37,13 @@ Connect the relay module's input pins to the appropriate Arduino digital pins as
 Connect the relay module outputs to the bulbs :            
                                           * Use TT wires to connect the bulbs and ensure proper insulation.      
 Power the relay module and Arduino board using their respective power supplies.  
-Verify all connections to ensure safe and proper operation.  
+> [!IMPORTANT]
+>Verify all connections to ensure safe and proper operation.  
 
-**Safety Tips**
-
-Ensure all high-voltage components are insulated and enclosed in a protective case.    
-Double-check the wiring to avoid short circuits or damage to components.    
-Do not handle the system while it is powered on.    
+> [!WARNING]
+>Ensure all high-voltage components are insulated and enclosed in a protective case.    
+>Double-check the wiring to avoid short circuits or damage to components.    
+>Do not handle the system while it is powered on.    
 
 **Usage**
 
@@ -52,13 +52,11 @@ The system will execute predefined lighting patterns on the connected bulbs.
 Optionally, modify the code to create custom patterns :         
                                            * Adjust the timing of the sequences.        
                                            * Change the pins for different bulb configurations.      
-
-**Customization**
-
-Feel free to modify the code to :    
-                                          * Add new lighting patterns.  
-                                          * Integrate additional hardware (e.g., sensors, Bluetooth modules).  
-                                          * Adjust timing, sequence order, or relay activation logic.  
+> [!TIP]
+>Feel free to modify the code to :    
+                                          - Add new lighting patterns.  
+                                          - Integrate additional hardware (e.g., sensors, Bluetooth modules).  
+                                          - Adjust timing, sequence order, or relay activation logic.  
 
 **Contribution**
 
