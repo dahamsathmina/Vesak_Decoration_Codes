@@ -1,4 +1,4 @@
-# Vesak_Decoration_2024
+### Vesak_Decoration_2024
 **Description**
 
 This Arduino project is designed to control decorative lighting patterns using a 4-channel relay module and 230V 5W bulbs. It is perfect for festivals like Vesak or other celebrations, providing dynamic and customizable light sequences to enhance any event.
@@ -22,8 +22,10 @@ Safe casing or insulation for high-voltage components.
 
 **Installation**
 
-*Clone the repository:*    
-    git clone : https://github.com/DahamSathmina/Vesak_Decoration_Codes_2024.git    
+*Clone the repository:* 
+```bash
+    git clone https://github.com/dahamsathmina/Vesak_Decoration_Codes.git
+```    
 Open the .ino file in the Arduino IDE.      
 Connect your Arduino board to your computer.      
 Upload the code to the Arduino board.      
@@ -57,11 +59,3 @@ Optionally, modify the code to create custom patterns :
                                           - Add new lighting patterns.  
                                           - Integrate additional hardware (e.g., sensors, Bluetooth modules).  
                                           - Adjust timing, sequence order, or relay activation logic.  
-
-**Contribution**
-
-Contributions are welcome! If you have ideas to improve the project, feel free to open an issue or submit a pull request.
-
-# License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
